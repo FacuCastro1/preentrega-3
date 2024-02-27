@@ -1,0 +1,68 @@
+.tips { 
+    background-color: #bdbdbd;
+}
+
+.cuerpo-tips {
+    background-color: #B22222;
+    overflow: hidden; 
+    margin-bottom: 50px;
+    border-radius: 20px;
+    .header-content {
+        img {
+            height: 140px; 
+            width: 180px; 
+            display: block;
+
+        }
+
+        .texto {
+            text-align: right;
+        }
+    }
+}
+
+.seccionador {
+
+    .nutrition {
+
+        background-color: #e66363;
+        color: bisque;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        padding: 30px 50px 30px 40px; 
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        .textos {
+
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}
+
+.footer-tips {
+
+    .gym {
+
+        background-color: #e66363;
+        color: bisque;
+        border-radius: 20px;
+        padding: 30px 50px 30px 40px; 
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .textos {
+
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}
+

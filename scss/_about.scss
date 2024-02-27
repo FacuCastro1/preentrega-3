@@ -1,0 +1,66 @@
+.aboutus {
+    background-color: #bdbdbd;
+}
+
+.ab-header {
+    
+    .header-content {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        img {
+            max-width: 300px;
+        }
+        .texto{
+            background-color: #e66363;  
+            padding-top: 40px;
+            padding-right: 100px;
+            padding-bottom: 40px;
+            padding-left: 100px;
+            border-radius: 20px;
+        }
+    }
+}
+
+.section-content {
+    width: 40%;
+    height: 40%; 
+    text-align: right;
+    div {
+        img {
+            max-width: 300px;
+        }
+        .introduction{
+            font-size: medium;
+            background-color: #797878;
+            color: white;
+            border-radius: 20px;
+            margin: 80px 80px 80px 80px; 
+            padding: 50px 20px;
+            text-align: left; 
+
+        }
+    }
+
+}
+
+.pie-ab {
+    .footer-content {
+        font-size: large;
+        background-color: #797878;
+        background-size: cover;
+        color: white;
+        border-radius: 20px;
+        margin: 80px 100px 100px 80px; 
+        text-align: center;
+        h2 {
+
+        }
+    }
+    .maps {
+        width: 1000px;
+        height: 500px; 
+    }
+}
