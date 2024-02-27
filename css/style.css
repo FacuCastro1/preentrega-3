@@ -268,4 +268,29 @@
   justify-content: space-between;
 }
 
+.start {
+  background-color: #bdbdbd;
+}
+
+.choose {
+  background-color: #797878;
+  border-radius: 30px;
+  text-align: center;
+  margin: 50px 40px 80px 50px;
+}
+.options-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.options-container .options {
+  background-color: tomato;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
