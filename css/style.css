@@ -120,6 +120,7 @@
     height: auto;
   }
 }
+/* un extend por si necesito para alguno de mis botones */
 .aboutus {
   background-color: #bdbdbd;
 }
@@ -135,9 +136,7 @@
   max-width: 300px;
 }
 .ab-header .header-content .texto {
-  background-color: #e66363;
-  padding: 40px 80px;
-  border-radius: 20px;
+  @exte;
 }
 
 .section-content {
