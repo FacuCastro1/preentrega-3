@@ -1,5 +1,7 @@
+@import 'bases/mapas';
+
 .start {
-    background-color: #bdbdbd;
+  background-color: #bdbdbd;
 }
 
 .choose {
@@ -27,6 +29,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border: map-get($defect-utility , border-standar );
 
         h2 {
 
