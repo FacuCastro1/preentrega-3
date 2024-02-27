@@ -52,6 +52,7 @@
         .story {
             display: grid;
             grid-template-rows: auto;
+            
             p {
                 float: right;
                 margin: 80px 40px 100px 40px;
@@ -100,11 +101,82 @@
     grid-template-rows: auto;
 
     p{
-                float: right;
-                margin: 80px 40px 100px 40px;
-                background-color: #e66363;
-                color: white;
-                border-radius: 20px; 
+        float: right;
+        margin: 80px 40px 100px 40px;
+        background-color: #e66363;
+        color: white;
+        border-radius: 20px; 
     }
    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cabecera {
+        background-color: #B22222;
+        margin: 5px;
+      
+        .header-content {
+          text-align: center; // Cambiamos el texto a centrado para pantallas pequeñas
+          font-size: 1px;
+      
+          img {
+            height: auto; // Ajustamos la altura automáticamente para mantener la proporción
+            width: 50px; // Ajustamos el ancho de la imagen para adaptarlo al tamaño de la pantalla
+            display: flex;
+            margin: 0 auto; // Centramos la imagen horizontalmente
+          }
+      
+          .texto {
+            text-decoration: none;
+            color: #fdfbfb;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          }
+        }
+    }
+      
+    .seccion-cl {
+        display: grid;
+        grid-template-columns: 1fr; // Cambiamos a una sola columna para pantallas pequeñas
+        gap: 5px;
+      
+        div {
+          .body1, .body2 {
+            display: flex;
+            flex-direction: column; // Cambiamos a una disposición en columna para pantallas pequeñas
+            align-items: center; // Centramos los elementos horizontalmente
+      
+            img {
+              margin: 20px 0; // Reducimos el margen de la imagen para separarla de los párrafos
+              width: 100%; // Ajustamos el ancho de la imagen al 100% del contenedor
+              height: auto; // Ajustamos la altura automáticamente para mantener la proporción
+            }
+          }
+      
+          .story {
+            p {
+              margin: 20px 0; // Reducimos el margen del párrafo para separarlo de los demás
+            }
+          }
+        }
+      }
+      
+      .base {
+        .body3 {
+          display: flex;
+          flex-direction: column; // Cambiamos a una disposición en columna para pantallas pequeñas
+          align-items: center; // Centramos los elementos horizontalmente
+      
+          img {
+            margin: 20px 0; // Reducimos el margen de la imagen para separarla de los párrafos
+            width: 100%; // Ajustamos el ancho de la imagen al 100% del contenedor
+            height: auto; // Ajustamos la altura automáticamente para mantener la proporción
+          }
+        }
+      
+        .story {
+          p {
+            margin: 20px 0; // Reducimos el margen del párrafo para separarlo de los demás
+          }
+        }
+    }
 }

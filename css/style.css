@@ -296,6 +296,58 @@
   border-radius: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+  .cabecera {
+    background-color: #B22222;
+    margin: 5px;
+  }
+  .cabecera .header-content {
+    text-align: center;
+    font-size: 1px;
+  }
+  .cabecera .header-content img {
+    height: auto;
+    width: 50px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .cabecera .header-content .texto {
+    text-decoration: none;
+    color: #fdfbfb;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .seccion-cl {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .seccion-cl div .body1, .seccion-cl div .body2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .seccion-cl div .body1 img, .seccion-cl div .body2 img {
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+  }
+  .seccion-cl div .story p {
+    margin: 20px 0;
+  }
+  .base .body3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .base .body3 img {
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+  }
+  .base .story p {
+    margin: 20px 0;
+  }
+}
 .tips {
   background-color: #bdbdbd;
 }
