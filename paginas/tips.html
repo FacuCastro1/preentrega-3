@@ -3,15 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Descripcion del sitio -->
+    <meta name="Description" content="Big amount of nutrition, fitness and health tips for your daily basis">
+    <!-- Descripcion del sitio -->
+
+    <!--Keywords-->
+    <meta name="keywords" content="fitness, lose weight, gym, health, nutrition, lifestyle">
+    <!--Keywords-->
+
+    <!--CSS y JS de Animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
    
     <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">
     <!--CSS-->
+    
+    <!--Open Graph-->
+    <meta property="og:image" content="https://www.nonnafit.com.br/wp-content/uploads/2021/07/lunch-at-the-table-with-healthy-organic-food-top-view.jpg">
+    <meta property="og:url" content="https://facucastro1.github.io/preentrega-3/paginas/tips.html">
+    <meta property="og:description" content="Nutrition, healthcare and fitness">
+    <meta property="og:title" content="Tips | Health and more">
+    <!--Open Graph-->
+
+
+
+    <!-- favico -->
+    <link rel="shortcut icon" href="../BREAKING-BARRIERS-SF-04.ico" type="image/x-icon">
+    <!-- favico -->
+
     <title>TIPS</title>
 </head>
 <body class="tips">
     <!--INICIO HEADER-->
-    <header class="cuerpo-tips">
+    <header class="cuerpo-tips" data-aos="fade-right">
         <div class="header-content">
           <img src="../fotos/horizontalblanco.png" alt="Logo">
           <h1 class="texto">PROTIPS FOR A BETTER LIFESTYLE</h1>
@@ -20,7 +48,7 @@
       <!--FIN HEADER-->
 
       <!--INICIO SECTION-->
-        <section class="seccionador">
+        <section class="seccionador" data-aos="fade-left">
             <div class="nutrition">
                 <div class="textos">
                     <h2>NUTRITION AND LIFESTYLE TIPS</h2>
@@ -35,7 +63,7 @@
       <!--FIN SECTION-->
 
     <!-- INICIO FOOTER-->
-        <footer class="footer-tips">
+        <footer class="footer-tips" data-aos="fade-right">
             <div class="gym">
                 <div class="textos">
                     <h2>DEVELOP YOUR GYM SESSIONS BY YOURSELF</h2>
@@ -47,5 +75,9 @@
         </footer>
     <!--FIN FOOTER-->
 
+    <!--Animation-->
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
