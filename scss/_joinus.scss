@@ -43,4 +43,37 @@
 }
 
 
+@media only screen and (max-width:768px) {
+  
+}
+.choose {
+  margin: 20px 10px; 
+  border-radius: 15px; 
+}
+
+.options-container {
+  grid-template-columns: 1fr; 
+}
+
+.options {
+  margin: 10px 0; 
+}
+
+
+@media only screen and (min-width: 769px) {
+  .choose {
+    margin: 50px 40px 80px 50px; /* Ajusta el margen según tus necesidades */
+    border-radius: 30px; /* Ajusta el radio del borde según tus necesidades */
+  }
+
+  .options-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Mantiene la disposición de las opciones en dos columnas */
+  }
+
+  .options {
+    margin: 10px 0; /* Ajusta el margen entre las opciones */
+  }
+}
+
+
 
