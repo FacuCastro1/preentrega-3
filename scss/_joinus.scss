@@ -1,18 +1,59 @@
 @import 'bases/mapas';
+@import 'bases/extend';
+@import 'bases/mixin';
 
 .start {
   background-color: #bdbdbd;
 }
 
-.choose {
-    background-color: #797878;
-    border-radius: 30px;
-    text-align: center;
-    margin: 50px 40px 80px 50px;
+.cabecera-join { 
+  @extend %botones;
 
-    .titulo {
+  nav { 
+      text-align: right;
 
-    }
+      div {
+
+          a {
+
+              img {
+                  height: 140px; 
+                  width: 180px; 
+                  display: block;
+              }
+          }
+
+          div {
+
+              ul {
+                  list-style: none;
+                  padding: 0;
+                  margin: 0;
+                  display: inline-block; 
+                  vertical-align: middle;
+
+                  li {
+                      display: inline-block;
+                      margin-right: 20px; 
+
+                      &:hover {
+                          text-decoration: underline;
+                      }
+
+                      a { 
+                          text-decoration: none;
+                          color: #fdfbfb; 
+                          line-height: 130px;
+                          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                          font-weight: 900;
+
+                      }
+                  }
+              }
+          }
+      }
+  }
+  
 }
 
 

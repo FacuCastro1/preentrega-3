@@ -1,31 +1,60 @@
+@import 'bases/extend';
+@import 'bases/mixin';
+
+
 .clients {
     background-color: #bdbdbd;
     
 }
 
-.cabecera {
-    background-color: #B22222;
-    overflow: hidden; 
-    margin-bottom: 50px;
-    border-radius: 20px;
+.cabecera-clients { 
+  @extend %botones;
 
-    .header-content {
-        text-align: right;
+  nav { 
+      text-align: right;
 
-        img{
-            height: 200px; 
-            width: 250px; 
-            display: block;
-        }
-        
-        .texto {
-            text-decoration: none;
-            color: #fdfbfb; 
-            line-height: 50px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-weight: 900;
-        }
-    }
+      div {
+
+          a {
+
+              img {
+                  height: 140px; 
+                  width: 180px; 
+                  display: block;
+              }
+          }
+
+          div {
+
+              ul {
+                  list-style: none;
+                  padding: 0;
+                  margin: 0;
+                  display: inline-block; 
+                  vertical-align: middle;
+
+                  li {
+                      display: inline-block;
+                      margin-right: 20px; 
+
+                      &:hover {
+                          text-decoration: underline;
+                      }
+
+                      a { 
+                          text-decoration: none;
+                          color: #fdfbfb; 
+                          line-height: 130px;
+                          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                          font-weight: 900;
+
+                      }
+                  }
+              }
+          }
+      }
+  }
+  
 }
 
 .seccion-cl {

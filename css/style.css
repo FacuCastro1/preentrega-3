@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.cabecera-index {
+.cabecera-join, .cabecera-tips, .cabecera-clients, .cabecera-about, .cabecera-index {
   background-color: #B22222;
   overflow: hidden;
   margin-bottom: 50px;
@@ -121,24 +121,45 @@
     height: auto;
   }
 }
+.cabecera-join, .cabecera-tips, .cabecera-clients, .cabecera-about, .cabecera-index {
+  background-color: #B22222;
+  overflow: hidden;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
 .aboutus {
   background-color: #bdbdbd;
 }
 
-.ab-header .header-content {
-  max-width: 1200px;
-  margin: 20px auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.cabecera-about nav {
+  text-align: right;
 }
-.ab-header .header-content img {
-  max-width: 300px;
+.cabecera-about nav div a img {
+  height: 140px;
+  width: 180px;
+  display: block;
 }
-.ab-header .header-content .texto {
-  background-color: #e66363;
-  padding: 40px 80px;
-  border-radius: 20px;
+.cabecera-about nav div div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cabecera-about nav div div ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.cabecera-about nav div div ul li:hover {
+  text-decoration: underline;
+}
+.cabecera-about nav div div ul li a {
+  text-decoration: none;
+  color: #fdfbfb;
+  line-height: 130px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
 }
 
 .section-content {
@@ -202,28 +223,43 @@
     padding: 40px;
   }
 }
-.clients {
-  background-color: #bdbdbd;
-}
-
-.cabecera {
+.cabecera-join, .cabecera-tips, .cabecera-clients, .cabecera-index, .cabecera-about {
   background-color: #B22222;
   overflow: hidden;
   margin-bottom: 50px;
   border-radius: 20px;
 }
-.cabecera .header-content {
+
+.clients {
+  background-color: #bdbdbd;
+}
+
+.cabecera-clients nav {
   text-align: right;
 }
-.cabecera .header-content img {
-  height: 200px;
-  width: 250px;
+.cabecera-clients nav div a img {
+  height: 140px;
+  width: 180px;
   display: block;
 }
-.cabecera .header-content .texto {
+.cabecera-clients nav div div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cabecera-clients nav div div ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.cabecera-clients nav div div ul li:hover {
+  text-decoration: underline;
+}
+.cabecera-clients nav div div ul li a {
   text-decoration: none;
   color: #fdfbfb;
-  line-height: 50px;
+  line-height: 130px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: 900;
 }
@@ -349,23 +385,45 @@
     margin: 20px 0;
   }
 }
-.tips {
-  background-color: #bdbdbd;
-}
-
-.cuerpo-tips {
+.cabecera-join, .cabecera-tips, .cabecera-index, .cabecera-about, .cabecera-clients {
   background-color: #B22222;
   overflow: hidden;
   margin-bottom: 50px;
   border-radius: 20px;
 }
-.cuerpo-tips .header-content img {
+
+.tips {
+  background-color: #bdbdbd;
+}
+
+.cabecera-tips nav {
+  text-align: right;
+}
+.cabecera-tips nav div a img {
   height: 140px;
   width: 180px;
   display: block;
 }
-.cuerpo-tips .header-content .texto {
-  text-align: right;
+.cabecera-tips nav div div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cabecera-tips nav div div ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.cabecera-tips nav div div ul li:hover {
+  text-decoration: underline;
+}
+.cabecera-tips nav div div ul li a {
+  text-decoration: none;
+  color: #fdfbfb;
+  line-height: 130px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
 }
 
 .seccionador .nutrition {
@@ -401,16 +459,47 @@
   justify-content: space-between;
 }
 
+.cabecera-join, .cabecera-index, .cabecera-about, .cabecera-clients, .cabecera-tips {
+  background-color: #B22222;
+  overflow: hidden;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
 .start {
   background-color: #bdbdbd;
 }
 
-.choose {
-  background-color: #797878;
-  border-radius: 30px;
-  text-align: center;
-  margin: 50px 40px 80px 50px;
+.cabecera-join nav {
+  text-align: right;
 }
+.cabecera-join nav div a img {
+  height: 140px;
+  width: 180px;
+  display: block;
+}
+.cabecera-join nav div div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cabecera-join nav div div ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.cabecera-join nav div div ul li:hover {
+  text-decoration: underline;
+}
+.cabecera-join nav div div ul li a {
+  text-decoration: none;
+  color: #fdfbfb;
+  line-height: 130px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+
 .options-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
